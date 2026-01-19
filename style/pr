@@ -1,0 +1,12 @@
+.card11{ 
+font-size: 20px;
+font-weight: bold;
+padding-top: 20px;
+text-align: center;
+
+}
+.card12{
+color: #627382;
+padding-top: 20px;
+text-align: center;
+}

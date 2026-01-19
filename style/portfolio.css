@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-size {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.full{
+background-color: #FFFFFF;
+
+
+}
+.nav{
+display: flex;
+justify-content: space-between;
+
+
+}
+.full .nav{
+
+     padding: 10px 40px 10px 40px;
+    align-items: center;
+}
+.logo-navbar{
+display: flex;  
+gap: 30px;
+list-style-type: none;
+
+}
+button{
+    width: 160px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.container1{
+background-image: url("../assets/hero-bg.png");
+width: 100%;  
+height: 600px;
+padding: 150px 100px;
+
+}
+.container2{
+width:100%;  
+height: 300px;
+text-align: center;
+
+}
+.btn{
+width: 200px;
+height: 40px;
+border-radius: 5px;
+color: #469165;
+background-color: #FFFFFF;
+}
+input[type="radio"]{
+
+accent-color: #469165;
+}
+.head{
+
+    padding-top: 10px;
+    line-height: 30px;
+}
+.p{
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+.button{
+padding-top: 50px;
+display: flex;
+justify-content: center;
+gap: 20px;
+
+
+}
+.button1{
+width: 200px;
+height: 40px;
+display: inline-flex;
+align-items: center;
+padding-left: 10px;
+
+}
+.button2{
+    height: 40px;
+background-color: transparent;
+border: 2px solid white;
+display: inline-flex;
+align-items: center;
+
+}
+
+.div{
+width: 100%;
+height: 400px;
+display: flex;
+justify-content: center;
+}
+.div1{
+width: 80%;
+height: 150px;
+
+
+}
+.fixh2{
+text-align: center;
+padding-top: 50px;
+font-weight: bolder;
+word-spacing: 4px;
+
+}
+.div2{
+width: 100%;
+height: 50px;
+padding-top: 10px;
+display: flex;
+justify-content: center;
+}
+.cardarea{
+
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.card1{
+padding: 20px;
+box-shadow: 0px 0px 6px #469165;
+
+}
+.card1 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.card1 h3{
+
+    padding-top: 10px;
+    text-align: center;
+}
+.card1 p{
+
+    padding-top: 20px;
+    text-align: center;
+}
+.idea{
+
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px 20px 20px;
+    
+}
+
+ .idea .ideaheader {
+width: 500px;
+height: 200px;
+padding: 100px 20px 20px 30px;
+
+ }
+ .idea .ideaimage{
+max-width: 600px;
+    height: 50px;
+    
+    
+ }
+
+ .idea .ideaheader h1{
+padding-top: 30px;
+
+  }
+  .idea .ideaheader p{
+padding-top: 20px;
+
+  }
+  .idea .ideaheader img{
+
+padding-top: 10px;
+
+  
+
+  }
+  .ready{
+width: 1150px;
+height: 300px;
+padding-top: 70px;
+margin: 100px auto;
+  text-align: center;
+  background-color: #F7F6F2;
+
+  }
+  .ready p{
+    padding-top: 20px;
+    padding-bottom: 10PX;
+    
+  }
+  .GetButton{
+display: inline-flex;
+align-items: center;
+padding-left: 20px;
+
+  }
+  .footer{
+width: 1600px;
+height:200px;
+background-color: black;
+
+
+  }
+  .footer p{
+color: #F7F6F2;
+
+  }
+  .foot{
+
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer2 h5{
+    color: white;
+  }
+  .footer p{
+text-align: center;
+padding-top: 20px;
+
+  }
+  
