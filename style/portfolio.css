@@ -84,7 +84,8 @@ gap: 20px;
 .button1{
 width: 200px;
 height: 40px;
-display: inline-flex;
+display:flex;
+gap: 5px;
 align-items: center;
 padding-left: 10px;
 
@@ -138,6 +139,10 @@ justify-content: center;
 padding: 20px;
 box-shadow: 0px 0px 6px #469165;
 
+}
+.Scattered-img{
+  
+  padding-left: 85px;
 }
 .card1 img{
     height: 60px;
@@ -215,8 +220,16 @@ margin: 100px auto;
   .GetButton{
 display: inline-flex;
 align-items: center;
+gap: 5px;
 padding-left: 20px;
 
+  }
+  .Mark{
+    display: inline-flex;
+    align-items: center;
+
+    gap: 8px;
+    
   }
   .footer{
 width: 100%;
@@ -248,6 +261,8 @@ color: #F7F6F2;
   .hr{
 width: 900px;
 margin: 0 auto;
+padding-top: 100px;
 
   }
+  
   
