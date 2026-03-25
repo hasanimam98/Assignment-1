@@ -55,8 +55,8 @@ text-align: center;
 }
 .btn{
 width: 200px;
-height: 40px;
-border-radius: 5px;
+padding: 2px;
+border-radius: 15px;
 color: #469165;
 background-color: #FFFFFF;
 }
@@ -67,11 +67,17 @@ accent-color: #469165;
 .head{
 
     padding-top: 10px;
-    line-height: 30px;
+    /* line-height: 30px; */
+    font-weight: 600px;
+    font-size: 30px;
+
 }
-.p{
+.paragraph{
     color: #FFFFFF;
     padding-top: 30px;
+    line-height: 24px; 
+    font-weight: lighter;
+    
 }
 .button{
 padding-top: 50px;
@@ -111,7 +117,7 @@ height: 150px;
 
 
 }
-.fixh2{
+.div-head{
 text-align: center;
 padding-top: 50px;
 font-weight: bolder;
@@ -124,6 +130,10 @@ height: 50px;
 padding-top: 10px;
 display: flex;
 justify-content: center;
+font-weight:lighter;
+font-size: 16px;
+
+
 }
 .cardarea{
 
@@ -137,7 +147,14 @@ justify-content: center;
 }
 .card1{
 padding: 20px;
-box-shadow: 0px 0px 6px #469165;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 6%);
+border-radius: 8px;
+
+
+}.card1 P{
+font-weight: lighter;
+line-height: 20PX;
+font-size: 16px;
 
 }
 .Scattered-img{
@@ -181,6 +198,10 @@ height: 200px;
 padding: 100px 20px 20px 30px;
 
  }
+ .idea-head{
+color: #469165;
+
+ }
  .idea .ideaimage{
 max-width: 600px;
     height: 50px;
@@ -194,6 +215,11 @@ padding-top: 30px;
   }
   .idea .ideaheader p{
 padding-top: 20px;
+font-weight: lighter;
+line-height: 20px;
+font-size: 14px;
+padding-bottom: 20px;
+
 
   }
   .idea .ideaheader img{
@@ -216,6 +242,12 @@ margin: 100px auto;
     padding-top: 20px;
     padding-bottom: 10PX;
     
+  }
+  .ready1{
+ line-height: 20px;
+ font-weight: lighter;
+
+
   }
   .GetButton{
 display: inline-flex;
@@ -241,7 +273,8 @@ background-color: black;
   
   
   .foot{
-
+    margin: auto;
+     width: 80%;
     display: flex;
     justify-content: space-between;
     padding: 20px 30px 20px 10px;
@@ -258,11 +291,18 @@ color: #F7F6F2;
   .white{
     margin: 20px auto;
   }
-  .hr{
-width: 900px;
+  .Copy-write-part{
+width: 1200px;
 margin: 0 auto;
 padding-top: 100px;
+opacity: .2;
 
   }
+
+.copyright{
+
+margin-top: 30px;
+
+}
   
   
